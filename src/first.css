@@ -1,0 +1,204 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Adjusted padding */
+}
+
+/*logo style*/
+.header-box {
+  display: flex;
+  background-color: black;
+  padding: 10px; /* Adjusted padding */
+  margin-left: 250px; /* Added margin-left for logo box */
+}
+.buttons-container  {
+  margin-right: 82px; 
+}
+.buttons-container > * {
+  margin-left: 30px; 
+}
+
+/*position of the differents elments*/
+.buttons-container,.black-button,.header-box{
+z-index:5;}
+
+
+
+.black-button {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 2px 25px;
+  cursor: pointer;
+  font-size:15px;
+  
+}
+
+.logo {
+  height: 40px;
+  color: white;
+}
+
+
+/* a Tag Style with hover effect */
+a {
+  text-decoration: none;
+  color: black; /* Changed link color */
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Adjusted position to be below text */
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #333; /* Adjusted color */
+  transition: width 0.2s ease-in-out;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+/* rectangle behind the buttons Style */
+.rectangle {
+  background-color: #d9d9d9;
+  border-radius: 0% 0% 0% 30%;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 0; /* Align to top of the page */
+  right: 0; /* Align to right side of the page */
+  z-index: -1; /* Place behind the navbar button */
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 20px; 
+}
+
+/* style of the title and the tag*/
+
+
+
+.button-title{
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.Book-now{
+  background-color:#213C54;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size:17px;
+  font-weight: 600;
+}
+
+
+.Reade-More{
+  background-color:#ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 1px solid black;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size:17px;
+  font-weight: 600;
+  margin-left: 50px;
+
+}
+
+
+
+
+
+p{
+  color: #000000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 10px;
+  margin-left: 15px;
+
+}
+.hand_made{
+  border-radius: 50px;
+}
+
+
+.x{
+  text-align: center;
+  margin-top: 50px;
+}
+.col-border {
+
+  border-right: 5px solid #dddddd93; /* Adjust color and width as needed */
+}
+.Nom{
+  font-weight: 700;
+
+}
+.Detaille{
+margin-left: 25%;
+margin-right: 25%;
+}
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+  .all{
+    margin-top: 5%;
+  }
+  p{
+    width: 55%;
+  }
+  .title{
+    color: #00425e;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 90px;
+    white-space: pre-wrap;
+    line-height: 1;
+  }
+}
+  @media screen and (min-width: 992px) {
+
+  }
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-box {
+    margin-left: 0;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+  }
+
+  .button {
+    margin-left: 0;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+  .Detaille{
+    display: none;
+  }
+}
+
+
+
+
