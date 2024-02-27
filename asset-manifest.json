@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/handmade_project/static/css/main.e3952492.css",
+    "main.js": "/handmade_project/static/js/main.f379a0b9.js",
+    "static/js/453.bb04f83a.chunk.js": "/handmade_project/static/js/453.bb04f83a.chunk.js",
+    "static/media/first.jpeg": "/handmade_project/static/media/first.d7dbf26efe54568b8d7d.jpeg",
+    "index.html": "/handmade_project/index.html",
+    "main.e3952492.css.map": "/handmade_project/static/css/main.e3952492.css.map",
+    "main.f379a0b9.js.map": "/handmade_project/static/js/main.f379a0b9.js.map",
+    "453.bb04f83a.chunk.js.map": "/handmade_project/static/js/453.bb04f83a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3952492.css",
+    "static/js/main.f379a0b9.js"
+  ]
+}
