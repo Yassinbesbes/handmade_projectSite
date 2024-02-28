@@ -1,3 +1,11 @@
 .All{
     margin: auto;
 }
+.I{
+    width: 200px;
+    height:250px;
+    margin: 5px;
+}
+.space{
+    margin-top: 20px;
+}

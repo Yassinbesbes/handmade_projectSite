@@ -1,31 +1,93 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react'; // Import React
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import { Container, Row, Col } from 'react-bootstrap'; // Import Container, Row, and Col components from React Bootstrap
-import "./seconde.css";
+import "./seconde.css"; // Import custom CSS file
+import Image from 'react-bootstrap/Image'; // Import Image component from React Bootstrap
+import bras from './images/bras.png'
 
+function Seconde() {
+    return (
+        <div>
+            <Container>
+                <Row>
+                <Col xs={6} sm={3}>
+                <Image className="I" src={bras} fluid/>
+                    <div >
+                    <Row className="Name_Price">
+                    <Col>prace</Col>
+                    <Col>12.00</Col>
+                    </Row>
+                    </div>
+                </Col>
+                <Col xs={6} sm={3}>
+                <Image className="I" src={bras} fluid />
+                    <div className="Name_Price">
+                    <Row>
+                    <Col>prace</Col>
+                    <Col>12.00</Col>
+                    </Row>
+                    </div>
+                </Col>
+                <Col xs={6} sm={3}>
+                <Image className="I" src={bras} fluid/>
+                    <div className="Name_Price">
+                    <Row>
+                    <Col>prace</Col>
+                    <Col>12.00</Col>
+                    </Row>
+                    </div>
+                </Col>
+                <Col xs={6} sm={3}>
+                <Image className="I" src={bras} fluid />
+                    <div className="Name_Price">
+                    <Row>
+                    <Col>prace</Col>
+                    <Col>12.00</Col>
+                    </Row>
+                    </div>
+                </Col>
+                </Row>
 
-
-
-function Seconde(){
-    return(
-    <div>
-    <Container className='All'>
-      <Row>
-        <Col>1 </Col>
-        <Col>2 </Col>
-        <Col md={3}>3</Col>
-        <Col >4</Col>
-      </Row>
-      <Row>
-        <Col>11 </Col>
-        <Col>22</Col>
-        <Col>33</Col>
-        <Col>44</Col>
-      </Row>
-    </Container>
-
-
-    </div>
-
+                <Row className='space'>
+                <Col xs={6} sm={3}>
+                <Image className="I" src={bras} fluid/>
+                    <div className="Name_Price">
+                    <Row>
+                    <Col>prace</Col>
+                    <Col>12.00</Col>
+                    </Row>
+                    </div>
+                </Col>
+                <Col xs={6} sm={3}>
+                <Image className="I" src={bras} fluid />
+                    <div className="Name_Price">
+                    <Row>
+                    <Col>prace</Col>
+                    <Col>12.00</Col>
+                    </Row>
+                    </div>
+                </Col>
+                <Col xs={6} sm={3}>
+                <Image className="I" src={bras} fluid/>
+                    <div className="Name_Price">
+                    <Row>
+                    <Col>prace</Col>
+                    <Col>12.00</Col>
+                    </Row>
+                    </div>
+                </Col>
+                <Col xs={6} sm={3}>
+                <Image className="I" src={bras} fluid />
+                    <div className="Name_Price">
+                    <Row>
+                    <Col>prace</Col>
+                    <Col>12.00</Col>
+                    </Row>
+                    </div>
+                </Col>
+                </Row>
+            </Container>
+        </div>
     );
 }
 
