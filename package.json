@@ -1,5 +1,5 @@
 {
-  "homepage":"https://Yassinbesbes.github.io/handmade_project",
+  "homepage": "https://Yassinbesbes.github.io/handmade_project",
   "name": "handmade_project",
   "version": "0.1.0",
   "private": true,
@@ -11,8 +11,10 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
     "react-scripts": "5.0.1",
     "react-typed": "^2.0.12",
+    "styled-components": "^6.1.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
