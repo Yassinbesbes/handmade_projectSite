@@ -53,23 +53,24 @@ function First() {
       <Row className='x'>
         {/* First feature */}
         <Col xs={4} md={4} className="col-border">
-          <Image src={Shipping} fluid />
+          <Image src={Shipping} fluid className="phone-image" />
           <div className='Nom'>Free Shipping</div>
           <div className='Detaille'>We offer free shipping on all orders.</div>
         </Col>
         {/* Second feature */}
         <Col xs={4} md={4} className="col-border">
-          <Image src={Bag} fluid />
+          <Image src={Bag} fluid className="phone-image" />
           <div className='Nom'>Save Money</div>
           <div className='Detaille'>Our prices help you save money.</div>
         </Col>
         {/* Third feature */}
         <Col xs={4} md={4} className="col-border">
-          <Image src={Contact} fluid />
+          <Image src={Contact} fluid className="phone-image" />
           <div className='Nom'>Contact Us</div>
           <div className='Detaille'>Contact us for any inquiries.</div>
         </Col>
       </Row>
+
     </div>
   );
 }
