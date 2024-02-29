@@ -42,7 +42,7 @@ function Seconde() {
                   </Row>
                 </div>
 
-                {(idx === 3) && <div style={{marginTop: '50px'}}></div>} {/* Add margin-top after the fourth item */}
+                {(idx === 3) && <div style={{marginTop: '50px'}}></div>} 
               </Col>
             ))}
           </Row>
