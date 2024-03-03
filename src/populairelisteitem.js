@@ -3,21 +3,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import "./populairelisteitem.css";
 import Image from 'react-bootstrap/Image';
-import bras from './images/bras.png';
-import two from './images/two.png';
-import three from './images/three.png';
-import four from './images/four.png';
-
-
+import sac1 from './images/sac1.jpg';
+import sac2 from './images/sac2.jpg';
+import Bijou from './images/Bijou.jpg';
+import talon from './images/talon.jpg';
+import necklace from './images/necklace.jpg';
+import olive from './images/olive.png';
 const imageData = [
-  { title: 'Bracelet', price: 12.00, src: bras },
-  { title: 'Native Light ', price: 35.00, src: two },
-  { title: 'Collier', price: 20.00, src: three },
-  { title: 'Paola Lamp', price: 65.00, src: four },
-  { title: 'Bracelet', price: 12.00, src: bras },
-  { title: 'Paola Lamp', price: 65.00, src: four },
-  { title: 'Native Light ', price: 35.00, src: two },
-  { title: 'Collier', price: 20.00, src: three },
+  { title: 'white bag ', price: 100.00, src: sac1 },
+  { title: 'Light bag ', price: 45.00, src: sac2 },
+  { title: 'bijou', price: 10.00, src: Bijou },
+  { title: 'necklace', price: 25.00, src: necklace },
+  { title: 'necklace', price: 25.00, src: olive },
+  { title: 'talon', price: 65.00, src: talon},
+  { title: 'Light bag ', price: 45.00, src: sac2 },
+  { title: 'Bijou', price: 10.00, src: Bijou }
 ];
 
 function PopulaireListeItem() {
