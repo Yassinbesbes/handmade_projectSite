@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/handmade_projectSite/static/css/main.9f7fcf00.css",
+    "main.css": "/handmade_projectSite/static/css/main.345461cb.css",
     "main.js": "/handmade_projectSite/static/js/main.cd058815.js",
     "static/js/453.bb04f83a.chunk.js": "/handmade_projectSite/static/js/453.bb04f83a.chunk.js",
     "static/media/pub.png": "/handmade_projectSite/static/media/pub.5476edac2f5108665cc1.png",
@@ -14,12 +14,12 @@
     "static/media/two.png": "/handmade_projectSite/static/media/two.235b4f7de1067b145234.png",
     "static/media/four.png": "/handmade_projectSite/static/media/four.271462b23a3eac9294a6.png",
     "index.html": "/handmade_projectSite/index.html",
-    "main.9f7fcf00.css.map": "/handmade_projectSite/static/css/main.9f7fcf00.css.map",
+    "main.345461cb.css.map": "/handmade_projectSite/static/css/main.345461cb.css.map",
     "main.cd058815.js.map": "/handmade_projectSite/static/js/main.cd058815.js.map",
     "453.bb04f83a.chunk.js.map": "/handmade_projectSite/static/js/453.bb04f83a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f7fcf00.css",
+    "static/css/main.345461cb.css",
     "static/js/main.cd058815.js"
   ]
 }
