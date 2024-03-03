@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import image1 from './images/image1.png'; // Import image1
 import image2 from './images/image2.png'; // Import image2
 import image3 from './images/image3.png'; // Import image3
 import image4 from './images/image4.png'; // Import image4
+import pub from './images/pub.png'; // Import pub
+import Image from 'react-bootstrap/Image'; // Import Image component from React Bootstrap
+
 
 import './imagepub.css'; // Corrected import statement
 
@@ -14,6 +18,7 @@ const ImagePub = () => {
   };
 
   return (
+    <div>
     <div className="image-pub-container">
       <div className="image-thumbnails">
         <div className="thumbnail-column">
@@ -45,6 +50,20 @@ const ImagePub = () => {
         />
       </div>
     </div>
+
+   {/* text title and some detaille with line */}
+    <hr />
+
+    <div className='title-detaille'>
+        <h1>Every Detail Matter</h1>
+        <h6>WE ARE SPECIALIZED IN ADORNMENTS, THAT BRING CHARM TO ANY ENVIRONMENT.</h6>
+        <p>There are multiples of high quality pieces, with styles that transition from classic to contemporary. An exclusive selection of lampshades, vases, murals, pillows, paintings and many gifts to compose great projects. In order selection, a mix of basic style, stricter customization and more compact dimensions, composing sophisticated and exclusive environments.</p>
+        
+    </div>
+    <Image className='hand_made' src={pub} fluid />
+
+    </div>
+
   );
 };
 

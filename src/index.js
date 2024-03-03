@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import FirstParte from './first';
 import PopulaireListeItem from './populairelisteitem';
 import ImagePub from './imagepub';
+import Footer from './Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <FirstParte/>
     <PopulaireListeItem/>
     <ImagePub/>
+    <Footer/>
   </React.StrictMode>
 );
 

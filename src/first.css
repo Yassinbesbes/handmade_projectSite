@@ -118,7 +118,7 @@ a:hover::after {
 
 
 
-p{
+.title > p{
   color: #000000;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 20px;
@@ -161,7 +161,7 @@ margin-right: 25%;
   .all{
     margin-top: 5%;
   }
-  p{
+  .title>p{
     width: 55%;
   }
   .title{
@@ -195,6 +195,9 @@ margin-right: 25%;
 
 /* Responsive styles */
 @media (max-width: 768px) {
+  p{
+    text-align: center;
+  }
   .all{
     margin-top:25px;
   }
@@ -214,6 +217,7 @@ margin-right: 25%;
     line-height: 1;
     text-align:center;
   }
+
 
 
   .header-box {
