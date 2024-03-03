@@ -1,5 +1,8 @@
 /* Footer.css */
-
+p{
+  color: white !important;
+  font-size: 15px !important;
+}
 .footer {
     background-color: #333;
     color: #fff;
