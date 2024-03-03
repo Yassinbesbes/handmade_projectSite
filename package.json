@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Yassinbesbes.github.io/handmade_project",
+  "homepage": "https://Yassinbesbes.github.io/handmade_projectSite",
   "name": "handmade_project",
   "version": "0.1.0",
   "private": true,
@@ -43,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
