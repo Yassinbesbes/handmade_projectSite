@@ -1,0 +1,72 @@
+.image-pub-container {
+    display: flex;
+    height: 100vh; /* Make container full height of viewport */
+
+}
+  
+.image-thumbnails {
+    flex: 0 0 20%; /* Set width to 20% of container */
+    overflow-y: auto; /* Add scrollbar if necessary */
+}
+  
+.big-image-container {
+    flex: 1; /* Take remaining space */
+    overflow: hidden;
+}
+  
+.thumbnail-column {
+    display: flex;
+    flex-direction: column;
+}
+  
+.thumbnail {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.selected {
+    border: 2px solid rgb(0, 0, 0); /* Change border color or add any other style to indicate selection */
+}
+  
+.big-image {
+    width: 100%; /* Ensure image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Prevent image from overflowing container */
+    object-fit: contain; /* Maintain aspect ratio and fit within container */
+}
+
+
+
+
+@media (min-width: 1024px) {
+    .image-pub-container {
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .big-image {
+        height: 100%; /* Maintain aspect ratio */
+
+    }
+}
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    .big-image {
+        max-height: 80%; /* Prevent image from overflowing container */
+
+    }
+      
+}
+  
+  
+/* Responsive styles */
+@media (max-width: 768px) {
+    .big-image {
+        max-height: 65%; /* Prevent image from overflowing container */
+        width: 90%;
+        
+    }
+      
+}
