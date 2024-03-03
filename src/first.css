@@ -174,8 +174,22 @@ margin-right: 25%;
     line-height: 1;
   }
 }
-  @media screen and (min-width: 992px) {
-
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+  
+    .title{
+      color: #00425e;
+      font-family: "Poppins-SemiBold", Helvetica;
+      font-size: 70px;
+      font-weight: 600;
+      line-height: 90px;
+      white-space: pre-wrap;
+      line-height: 1;
+    }
+    .all{
+      margin-top: 25px;
+    }
   }
 
 
@@ -200,9 +214,7 @@ margin-right: 25%;
     line-height: 1;
     text-align:center;
   }
-  p{
-    
-  }
+
 
   .header-box {
     margin-left: 0;

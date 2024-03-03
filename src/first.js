@@ -8,8 +8,8 @@ import Contact from './images/Contact.png';
 import Bag from './images/Bag.png';
 import Shipping from './images/Shipping.png';
 
-// Define a functional component named First
-function First() {
+// Define a functional component named FirstParte have header and Main content 
+function FirstParte() {
   return (
     <div>
       {/* Header section */}
@@ -27,7 +27,7 @@ function First() {
         </div>
       </header>
 
-      {/* Rectangle section */}
+      {/* Rectangle section placed at the top in the left  */}
       <div className="rectangle" />
 
       {/* Main content section */}
@@ -76,4 +76,4 @@ function First() {
 }
 
 // Export the First component as the default export
-export default First;
+export default FirstParte;

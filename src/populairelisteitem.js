@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import "./seconde.css";
+import "./populairelisteitem.css";
 import Image from 'react-bootstrap/Image';
 import bras from './images/bras.png';
 import two from './images/two.png';
@@ -20,7 +20,7 @@ const imageData = [
   { title: 'Collier', price: 20.00, src: three },
 ];
 
-function Seconde() {
+function PopulaireListeItem() {
   return (
     <div className='xx'>
       <Container >
@@ -52,4 +52,4 @@ function Seconde() {
   );
 }
 
-export default Seconde;
+export default PopulaireListeItem;
