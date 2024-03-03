@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/handmade_project/static/css/main.e3952492.css",
-    "main.js": "/handmade_project/static/js/main.f379a0b9.js",
+    "main.css": "/handmade_project/static/css/main.d1226ec4.css",
+    "main.js": "/handmade_project/static/js/main.b1d18fb0.js",
     "static/js/453.bb04f83a.chunk.js": "/handmade_project/static/js/453.bb04f83a.chunk.js",
+    "static/media/pub.png": "/handmade_project/static/media/pub.5476edac2f5108665cc1.png",
+    "static/media/three.png": "/handmade_project/static/media/three.f89f86066da13babcf73.png",
+    "static/media/bras.png": "/handmade_project/static/media/bras.11c87ea1340bad03224d.png",
+    "static/media/image4.png": "/handmade_project/static/media/image4.7396f16343249c357c32.png",
     "static/media/first.jpeg": "/handmade_project/static/media/first.d7dbf26efe54568b8d7d.jpeg",
+    "static/media/image1.png": "/handmade_project/static/media/image1.5f026178286fa4272155.png",
+    "static/media/image2.png": "/handmade_project/static/media/image2.729461d6e1765cc6620a.png",
+    "static/media/image3.png": "/handmade_project/static/media/image3.d67127a97424eac1041d.png",
+    "static/media/two.png": "/handmade_project/static/media/two.235b4f7de1067b145234.png",
+    "static/media/four.png": "/handmade_project/static/media/four.271462b23a3eac9294a6.png",
     "index.html": "/handmade_project/index.html",
-    "main.e3952492.css.map": "/handmade_project/static/css/main.e3952492.css.map",
-    "main.f379a0b9.js.map": "/handmade_project/static/js/main.f379a0b9.js.map",
+    "main.d1226ec4.css.map": "/handmade_project/static/css/main.d1226ec4.css.map",
+    "main.b1d18fb0.js.map": "/handmade_project/static/js/main.b1d18fb0.js.map",
     "453.bb04f83a.chunk.js.map": "/handmade_project/static/js/453.bb04f83a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3952492.css",
-    "static/js/main.f379a0b9.js"
+    "static/css/main.d1226ec4.css",
+    "static/js/main.b1d18fb0.js"
   ]
 }
