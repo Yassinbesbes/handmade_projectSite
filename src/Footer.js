@@ -16,7 +16,7 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <p>Email: besbesyassin90@gmail.com</p>
           <p>Phone: +21620578373</p>
-          <p>Address: Medina,Sfax,300,Tunise</p>
+          <p>Address: Medina,Sfax 3000,Tunise</p>
         </div>
       </div>
     </footer>
